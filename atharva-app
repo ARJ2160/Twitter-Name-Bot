@@ -2,9 +2,7 @@
 #Section 1 : A function declaraing the authentication
 #Section 2 : Code for changing Name of account
                          #Section 1
-import tweepy
-import time
-import os #Operating System 
+import tweepy 
 def create_api():
   consumer_key = os.getenv('consumer_key')
   cosumer_secret = os.getenv('cosumer_secret')
