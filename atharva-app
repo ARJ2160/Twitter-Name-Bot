@@ -1,6 +1,6 @@
 #Twitter Bot Program
 #Section 1 : A function declaraing the authentication
-#Section 2 : Code for changing N=name of account
+#Section 2 : Code for changing Name of account
                          #Section 1
 import tweepy
 import time
@@ -38,3 +38,4 @@ while True:
    print(f'Updating Twitter Name : ARJ|{follower_count(user)} Followers') #For our Understanding
    print('Waiting for Refresh')
    time.sleep(60)
+
