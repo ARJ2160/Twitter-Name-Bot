@@ -3,6 +3,8 @@
 #Section 2 : Code for changing Name of account
                          #Section 1
 import tweepy 
+import os
+import time
 def create_api():
   consumer_key = os.getenv('consumer_key')
   cosumer_secret = os.getenv('cosumer_secret')
