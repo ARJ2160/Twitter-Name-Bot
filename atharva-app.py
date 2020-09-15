@@ -7,7 +7,7 @@ import os
 import time
 def create_api():
   consumer_key = os.getenv('consumer_key')
-  cosumer_secret = os.getenv('cosumer_secret')
+  consumer_secret = os.getenv('consumer_secret')
   access_token = os.getenv('access_token')
   access_token_secret = os.getenv('access_token_secret')
   
