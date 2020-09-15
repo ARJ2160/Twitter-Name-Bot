@@ -38,4 +38,3 @@ while True:
    print(f'Updating Twitter Name : ARJ|{follower_count(user)} Followers') #For our Understanding
    print('Waiting for Refresh')
    time.sleep(60)
-  
