@@ -1,1 +1,1 @@
-worker  python atharva-app.py
+worker: python atharva-app.py
